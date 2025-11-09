@@ -3,7 +3,10 @@
 
 📁 Project Structure
 
-'''Blackjack-Casino-GUI/
+### 📁 Project Structure
+
+```
+Blackjack-Casino-GUI/
 │
 ├── main.py                 # GUI and game flow using CustomTkinter
 ├── database.py             # SQLite database for login and game history
@@ -15,7 +18,7 @@
 │   └── screenshots/        # Folder for GUI screenshots (optional)
 │
 └── blackjack_casino.db     # Auto-created SQLite database file after first run
-'''
+```
 
 🎮 Full GUI using CustomTkinter (black and gold casino theme)
 
