@@ -15,10 +15,15 @@ Blackjack-Casino-GUI/
 └── blackjack_casino.db    # Auto-created database file after first run
 
 🧠 Features
+
 🎮 Full GUI using CustomTkinter (black and gold casino theme)
+
 🔐 Secure login/signup system (passwords hashed using bcrypt)
+
 🃏 Classic Blackjack gameplay with realistic rules
+
 💾 SQLite integration to save and view game history
+
 🖼️ Support for card images (auto-drawn placeholders if missing)
 
 ⚙️ Installation & Setup
