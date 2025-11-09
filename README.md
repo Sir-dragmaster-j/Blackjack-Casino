@@ -2,19 +2,19 @@
 🎰 A Python-based Blackjack Casino Game featuring a modern black-and-gold CustomTkinter GUI, SQLite database integration for user login and game history, and secure bcrypt password encryption
 
 📁 Project Structure
+
 Blackjack-Casino-GUI/
 │
-├── main.py                # GUI and game flow using CustomTkinter
-├── database.py            # SQLite database for login and game history
-├── blackjack_logic.py     # Core blackjack logic and scoring system
-├── requirements.txt       # Dependencies (customtkinter, bcrypt, pillow)
+├── main.py                 # GUI and game flow using CustomTkinter
+├── database.py             # SQLite database for login and game history
+├── blackjack_logic.py      # Core blackjack logic and scoring system
+├── requirements.txt        # Dependencies (customtkinter, bcrypt, pillow)
 │
-├── assets/                # Contains images and optional logo
-│   └── cards/             # 52 card images (PNG format)
+├── assets/                 # Contains images and optional logo
+│   ├── cards/              # Folder for 52 card images (PNG format)
+│   └── screenshots/        # Folder for GUI screenshots (optional)
 │
-└── blackjack_casino.db    # Auto-created database file after first run
-
-🧠 Features
+└── blackjack_casino.db     # Auto-created SQLite database file after first run
 
 🎮 Full GUI using CustomTkinter (black and gold casino theme)
 
