@@ -1,93 +1,108 @@
-# Blackjack-Casino
-🎰 A Python-based Blackjack Casino Game featuring a modern black-and-gold CustomTkinter GUI, SQLite database integration for user login and game history, and secure bcrypt password encryption
+<p align="center">
+  <img src="https://i.imgur.com/4eP1NjN.jpeg" width="100%" style="border-radius:12px;" />
+</p>
 
-📁 Project Structure
+<h1 align="center">❤️‍🔥🎰 BLACKJACK CASINO — ROYAL EDITION</h1>
+<p align="center"><b>A Luxury Black-Gold Python Casino Experience</b></p>
 
-### 📁 Project Structure
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python_3.10+-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GUI-CustomTkinter-gold?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge" />
+</p>
 
-```
+<p align="center">
+  <img src="https://img.shields.io/github/stars/YourUsername/Blackjack-Casino-GUI?style=social" />
+  <img src="https://img.shields.io/github/forks/YourUsername/Blackjack-Casino-GUI?style=social" />
+</p>
+
+---
+
+# 👑 Royal Description  
+A premium **Blackjack Casino Game** built using **CustomTkinter**, **SQLite**, and **bcrypt**, wrapped in an elite **black-and-gold casino theme**. Real blackjack mechanics, user login, encrypted passwords, and full game history — designed to feel like a true high-roller experience.
+
+---
+
+# 📁 Royal Folder Structure
+```text
 Blackjack-Casino-GUI/
+│── main.py                # Royal GUI + game flow
+│── database.py            # SQLite login system + game history
+│── blackjack_logic.py     # Blackjack engine: deck, scoring, dealer AI
+│── requirements.txt       # Dependencies
 │
-├── main.py                 # GUI and game flow using CustomTkinter
-├── database.py             # SQLite database for login and game history
-├── blackjack_logic.py      # Core blackjack logic and scoring system
-├── requirements.txt        # Dependencies (customtkinter, bcrypt, pillow)
+├── assets/
+│   ├── cards/             # 52 royal PNG card images
+│   └── screenshots/       # Optional UI previews
 │
-├── assets/                 # Contains images and optional logo
-│   ├── cards/              # Folder for 52 card images (PNG format)
-│   └── screenshots/        # Folder for GUI screenshots (optional)
-│
-└── blackjack_casino.db     # Auto-created SQLite database file after first run
+└── blackjack_casino.db    # Auto-created Royal Database
 ```
 
-🎮 Full GUI using CustomTkinter (black and gold casino theme)
+---
 
-🔐 Secure login/signup system (passwords hashed using bcrypt)
+# 💎 Royal Features
+- Black-gold casino themed interface  
+- Secure login/signup using **bcrypt hashing**  
+- Real card dealing logic (Hit / Stand / Dealer ≥ 17)  
+- Automatic **SQLite** game history storage  
+- Optional card images with royal fallback placeholders  
+- Modular architecture for easy upgrades  
 
-🃏 Classic Blackjack gameplay with realistic rules
+---
 
-💾 SQLite integration to save and view game history
-
-🖼️ Support for card images (auto-drawn placeholders if missing)
-
-⚙️ Installation & Setup
-# Clone this repository
+# 🛠️ Royal Installation
+```bash
 git clone https://github.com/YourUsername/Blackjack-Casino-GUI.git
-
-# Navigate to project directory
 cd Blackjack-Casino-GUI
 
-# Create virtual environment (recommended)
 python -m venv venv
+# Activate:
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
 
-# Activate it
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # macOS/Linux
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the game
 python main.py
+```
 
+---
 
-🧾 Dependencies
+# 🎯 Requirements
+```
 customtkinter
 bcrypt
 Pillow
+```
 
-🏁 How It Works
+---
 
-User signs up or logs in securely (passwords are hashed).
+# 🃏 How the Royal Game Works
+- User signs into the Royal Lobby  
+- Choose **Play Blackjack** or **View History**  
+- Player hits or stands  
+- Dealer draws until **17+**  
+- Result (WIN/LOSS/DRAW) saved to SQLite  
+- History displays all past royal games  
 
-After login, user navigates from the Main Menu to start the game or view previous results.
+---
 
-The Blackjack Game follows standard casino rules:
+# 🧩 Future Royal Enhancements
+- 💰 Chip betting system  
+- 🌍 Multiplayer table  
+- 🎵 Casino sound effects  
+- ✨ Dealing animations  
+- 📊 User statistics dashboard  
+- 🎴 Unlockable card backs & premium themes  
 
-Player can Hit or Stand.
+---
 
-Dealer auto-draws until reaching a score ≥17.
+# 👨‍💻 Author
+**Sujay J**  
+B.E in Artificial Intelligence & Data Science  
+Maharaja Institute of Technology Mysore  
 
-Final result (WIN/DRAW/LOSS) is stored in the database.
+---
 
-Game History tab displays previous scores, dealer scores, and timestamps.
-
-🧩 Future Enhancements
-
-Add sound effects & animations.
-
-Include bet system with virtual chips.
-
-Add multiplayer support via socket or web integration.
-
-👨‍💻 Author
-
-Sujay J
-B.E – Artificial Intelligence and Data Science
-Maharaja Institute of Technology Mysore
-
-🏷️ License
-
-This project is open-source under the MIT License.
-You’re free to modify and distribute with proper attribution.
+# 🏷️ License
+MIT License — free to use, modify, and distribute with attribution.
 
