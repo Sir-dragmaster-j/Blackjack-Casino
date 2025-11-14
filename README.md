@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/erikas/Blackjack/master/screenshot.png" width="100%" style="border-radius:12px;" />
-</p>
-
-
 <h1 align="center">❤️‍🔥🎰 BLACKJACK CASINO — ROYAL EDITION</h1>
 <p align="center"><b>A Luxury Black-Gold Python Casino Experience</b></p>
 
